@@ -1,1 +1,1 @@
-# GitAliasses
+# GitAliases
