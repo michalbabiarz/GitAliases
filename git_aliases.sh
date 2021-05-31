@@ -21,7 +21,7 @@ git config --global alias.pl pull
 git config --global alias.ph push
 git config --global alias.phf 'push -f'
 git config --global alias.ci 'commit -m'
-git config --global alias.fastci 'commit -a -m'
+git config --global alias.fci 'commit -am'
 git config --global alias.st status
 git config --global alias.unstage 'reset HEAD --'
 git config --global alias.last 'log -1 HEAD'
