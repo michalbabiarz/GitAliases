@@ -21,6 +21,7 @@ git config --global alias.pl pull
 git config --global alias.ph push
 git config --global alias.phf 'push -f'
 git config --global alias.ci 'commit -m'
+git config --global alias.cia 'commit -a -m'
 git config --global alias.fci 'commit -am'
 git config --global alias.st status
 git config --global alias.unstage 'reset HEAD --'
@@ -35,6 +36,8 @@ git config --global alias.lsstash 'stash list'
 git config --global alias.unstash 'stash pop'
 git config --global alias.wipeout 'checkout -- '*''
 git config --global alias.rbm 'rebase master'
+git config --global alias.rbd 'rebase develop'
+git config --global alias.rbc 'rebase --continue'
 git config --global alias.info 'remote show origin'
 echo "Done"
 
